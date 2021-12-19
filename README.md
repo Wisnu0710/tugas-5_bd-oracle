@@ -7,7 +7,7 @@ Hal yang pertama dilakukan untuk membuat program Oracle menggunakan PHP adalah d
 ![koneksi php](https://user-images.githubusercontent.com/46640078/146669901-92f363ae-6f7b-4e09-a630-c5cbcc3562a1.png)
 
 # 2. Membuat view
-Selanjutnya adalah untuk membuat view. Sebenarnya saya membuat view lebih dari 5, Namun agar lebih mudah disini hanya saya tampilkan 2 dari view yang sudah saya buat
+Selanjutnya adalah untuk membuat view.
 
 CREATE OR REPLACE view apotek_mawar as SELECT * FROM obat WHERE jenis = 'tablet'; 
 select * from apotek_mawar;
